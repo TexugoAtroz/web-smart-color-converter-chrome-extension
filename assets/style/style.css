@@ -1,0 +1,102 @@
+/*--- input table ---*/
+*{
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+.input{	
+	display:block;	
+	padding: 10px 0;
+}
+.input #input-color{
+	width: 128px;
+	height: 25px;
+	padding: 0 5%;
+	margin:0;
+	border: 0px;
+	border-radius: 5px;
+	outline:none;
+}
+.input .input-btn{
+	width: 64px;
+	height: 25px;
+	padding:0;
+	margin:0;
+	border: 0px solid #666666;
+	border-radius: 5px;
+	outline:none;
+}
+.format{
+	padding:10px 0;
+}
+	
+/*--- color picker ---*/
+#colorpicker{
+	padding: 10px 0;
+}
+
+/*--- output table ---*/
+.output{
+	display:none;
+}
+.output th{
+	padding:10px 0;
+}
+.output span{
+	display:block;
+}
+.output .original-col{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.output .web-smart-col{}
+.output .web-safe-col{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+	
+/*--- history container ---*/
+.history-container{
+	max-height:150px;
+}
+	
+/*--- history table ---*/
+.history{
+	display:none;
+}
+.history tr{}
+.history th{
+	padding: 10px 0;
+}
+.history td{
+	border-bottom: 1px solid #ffffff;
+}
+.history span{
+	display:block;
+	font-size:10px;
+}
+.history .original-col{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.history .web-smart-col{}
+.history .web-safe-col{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.history .clear-this-btn{
+	width: 21px;
+	height: 21px;
+	border: 0px solid #666666;
+	border-radius: 5px;	
+	background-image:url('../img/waster.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+/*--- hex colors ---*/
+.hex-white{
+	color:#ffffff;
+}
+.hex-black{
+	color:#000000;
+}

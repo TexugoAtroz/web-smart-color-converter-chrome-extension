@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>
+		Web Smart Color Converter
+		</title>
+		
+		<!--regular imports-->
+		<link href="../assets/style/style.css" rel="stylesheet" type="text/css">
+		
+		<!--plugins-->
+		<link href="../assets/plugins/farbtastic/plugin.farbtastic.css" rel="stylesheet" type="text/css">
+		<link href="../assets/plugins/mCustomScrollBar/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css">
+		
+    </head>
+    
+    <body>
+		<table id="" class="input" width="250" cellspacing="0" cellpadding="0" border="0" align="center">
+			<tr>
+				<td width="160" align="center" valign="middle">
+					<input type="text" id="input-color" value="#616263" name="color" />
+				</td> 
+				
+				<td width="90" align="center" valign="middle">
+					<button id="" class="input-btn" type="submit" >Convert</button>
+				</td>
+			</tr>
+		</table>
+		
+		<table id="colorpicker" align="center"></table>
+		
+		<table id="" class="output" width="250" cellspacing="0" cellpadding="0" border="0" align="center">
+			<tr>
+				<th align="center" valign="middle" width="33%">
+				original
+				</th>
+				<th align="center" valign="middle" width="33%">
+				web-smart
+				</th>
+				<th align="center" valign="middle" width="33%">
+				web-safe
+				</th>
+			</tr>
+			
+			<tr>
+				<td id="" class="original-col" align="center" valign="middle" width="33%" height="96">
+					<span class='hex-white'>
+					</span>
+					<span class='hex-black'>
+					</span>
+				</td> 
+				<td id="" class="web-smart-col" align="center" valign="middle" width="33%" height="96">
+					<span class='hex-white'>
+					</span>
+					<span class='hex-black'>
+					</span>
+				</td>
+				<td id="" class="web-safe-col" align="center" valign="middle" width="33%" height="96">
+					<span class='hex-white'>
+					</span>
+					<span class='hex-black'>
+					</span>
+				</td>
+			</tr>
+		</table>
+		
+		<label style="padding: 10px 0; display:block; text-align: center">
+		<b>Historico</b>
+		</label>		
+		
+		<div class="history-container">
+			<table id="" class="history" width="220" cellspacing="0" cellpadding="0" border="0" align="center">
+			</table>
+		</div>
+    </body>
+</html>
+
+<script src="../assets/js/jquery.1.11.1.min.js"></script>
+
+<script src="../assets/plugins/maskedinput/jquery.maskedinput.js"></script>
+<script src="../assets/plugins/farbtastic/plugin.farbtastic.js"></script>
+<script src="../assets/plugins/mCustomScrollBar/jquery.mCustomScrollbar.min.js"></script>
+<script src="../assets/plugins/mousewheel/jquery.mousewheel.min.js"></script>
+
+<script src="../assets/js/common.js"></script>
